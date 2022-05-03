@@ -22,25 +22,25 @@
 }
 /*Логотип*/
 .logo {
-    color: var(--logo-color);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
+color: var(--logo-color);
+font-family: Raleway, sans-serif;
+font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 }
 .accent-logo {
-  color: var(--accent-color); 
+color: var(--accent-color); 
 }
 /*Навигация*/
 .navigation .navigation-list .navigation-link {
-    color: var(--title-link-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+color: var(--title-link-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
   }
   .navigation .navigation-list .navigation-link:hover,
   .navigation .navigation-list .navigation-link:focus {
@@ -91,7 +91,7 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 /*Секция Особенности*/
-.features .features-title {
+.features-title {
     color: var(--title-link-color);
     font-family: 'Roboto';
     font-style: normal;
