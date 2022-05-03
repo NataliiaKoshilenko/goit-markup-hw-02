@@ -20,6 +20,14 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+/*Снять маркеры*/
+li {
+  list-style-type: none;
+}
+/*Снять подчеркивание ссылок*/
+a {
+  text-decoration: none;
+ }
 /*Логотип*/
 .logo {
 color: var(--logo-color);
@@ -120,7 +128,7 @@ letter-spacing: 0.03em;
     line-height: 42px;
     letter-spacing: 0.03em;
 }
-/*Секция Команд*/
+/*Секция Команда*/
 .team-title {
     color: var(--title-link-color);
     font-family: 'Roboto';
@@ -154,12 +162,12 @@ font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 }
-.address .contact-link{
+.address .address-link{
 color: var( --address-secondary-color) ;
 }
 .footer-logo{
-    color: var(--footer-logo-color);
-    font-family: 'Raleway';
+color: var(--footer-logo-color);
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
